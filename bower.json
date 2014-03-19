@@ -1,18 +1,19 @@
 {
-  "name": "flappy",
-  "version": "0.0.1",
+  "name": "FlappyTayyip",
+  "version": "1",
   "authors": [
-    "shan zhou <hyspace@gmail.com>"
+    "dombili"
   ],
-  "description": "flappy bird in html5",
+  "description": "A variation of Flappy Bird in HTML5, with more Tayyip",
   "main": "index.html",
   "keywords": [
     "game",
     "flappy",
-    "bird"
+    "bird",
+    "tayyip"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/hyspace/flappy",
+  "homepage": "https://github.com/dombili/FlappyTayyip",
   "private": true,
   "ignore": [
     "**/.*",

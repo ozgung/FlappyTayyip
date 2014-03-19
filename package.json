@@ -1,7 +1,7 @@
 {
-  "name": "flappy",
-  "version": "0.0.1",
-  "description": "flappy bird in html5",
+  "name": "FlappyTayyip",
+  "version": "1",
+  "description": "A variation of Flappy Bird in HTML5, with more Tayyip",
   "devDependencies": {
     "gulp": "~3.5.2",
     "coffee-script": "~1.7.1",
@@ -16,17 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyspace/flappy"
+    "url": "https://github.com/dombili/FlappyTayyip"
   },
   "keywords": [
     "game",
     "flappy",
-    "bird"
+    "bird",
+    "tayyip"
   ],
-  "author": "shan zhou <hyspace@gmail.com>",
+  "author": "dombili",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyspace/flappy/issues"
+    "url": "https://github.com/dombili/FlappyTayyip/issues"
   },
-  "homepage": "https://github.com/hyspace/flappy"
+  "homepage": "https://github.com/dombili/FlappyTayyip"
 }
