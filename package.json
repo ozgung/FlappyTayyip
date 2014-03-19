@@ -1,7 +1,7 @@
 {
   "name": "FlappyTayyip",
   "version": "1",
-  "description": "A variation of Flappy Bird in HTML5, with more Tayyip",
+  "description": "A variation of Flappy Bird in HTML5, with an homage to our glorious leader",
   "devDependencies": {
     "gulp": "~3.5.2",
     "coffee-script": "~1.7.1",
