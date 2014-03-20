@@ -40,7 +40,7 @@ swooshSnd = null
 
 tubesTimer = null
 
-githubHtml = """<iframe src="http://ghbtns.com/github-btn.html?user=dombili&repo=FlappyTayyip&type=watch&count=true&size=large"
+githubHtml = """<iframe src="http://ghbtns.com/github-btn.html?user=hyspace&repo=flappy&type=watch&count=true&size=large"
   allowtransparency="true" frameborder="0" scrolling="0" width="150" height="30"></iframe>"""
 
 floor = Math.floor
@@ -117,7 +117,7 @@ main = ->
     hiscore = (if hiscore then hiscore else score)
     hiscore = (if score > parseInt(hiscore, 10) then score else hiscore)
     window.localStorage.setItem "hiscore", hiscore
-    gameOverText.setText "Oyun Bitti\n\nYüksek Skor\n\n" + hiscore
+    gameOverText.setText "GAMEOVER\n\nHIGH SCORE\n\n" + hiscore
     gameOverText.renderable = true
 
     # Stop all tubes
@@ -140,6 +140,7 @@ main = ->
         swooshSnd.play()
 
     hurtSnd.play()
+    scoreSnd.stop()
     return
 
   flap = ->
@@ -186,7 +187,7 @@ main = ->
     return
 
   create = ->
-    console.log("%chttps://github.com/dombili/FlappyTayyip", "color: black; font-size: x-large");
+    console.log("%chttps://github.com/hyspace/flappy", "color: black; font-size: x-large");
     ratio = window.innerWidth / window.innerHeight
     document.querySelector('#github').innerHTML = githubHtml if ratio > 1.15 or ratio < 0.7
     document.querySelector('#loading').style.display = 'none'
@@ -295,8 +296,8 @@ main = ->
     score = 0
     # credits.renderable = true
     # credits.setText "see console log\nfor github url"
-    scoreText.setText "Flappy Tayyip"
-    instText.setText "Tayyip'in kanatlarını çırpması için\nHerhangi bir yere tıklayın"
+    scoreText.setText "Flappy Bird"
+    instText.setText "TOUCH TO FLAP\nbird WINGS"
     gameOverText.renderable = false
     bird.body.allowGravity = false
     bird.reset game.world.width * 0.3, game.world.height / 2
